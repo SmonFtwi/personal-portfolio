@@ -1,6 +1,6 @@
 import html from './../assets/HTML5_Badge.svg.png'
 import css from './../assets/CSS3.png'
-import js from './../assets/js.png'
+import js from './../assets/Js.png'
 import java from './../assets/java.svg'
 import python from './../assets/Python.png'
 import node from './../assets/Node.png'
