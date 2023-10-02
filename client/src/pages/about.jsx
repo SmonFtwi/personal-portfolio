@@ -47,12 +47,12 @@ function About() {
           }
         `}
       </style>
-      <div>
+      <div id="about">
         <div className=' display:block md:flex justify-center align-middle bg-slate-800 rounded-t-lg rounded-r-none rounded-b-lg rounded-l-none m-5 p-4'>
           <div className='text-center'>
             <h1 className='text-5xl py-2 text-sky-600 font-medium font-serif'> About Me</h1>
             <p className='text-md py-5 leading-8 max-w-xl mx-auto md:text-xl'>Greetings, I'm Smon Ftwi, from Eritrea.<br></br>
-              I am a fresh graduate in Computer Networking from the Higher Colleges of Technology 
+              Fresh graduate in Computer Networking from the Higher Colleges of Technology 
               in the UAE. My professional interests span across Networking, 
               Web Development, App Development, and the captivating field of Artificial Intelligence 
               and Machine Learning (AI/ML).</p>

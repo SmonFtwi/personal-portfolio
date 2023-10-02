@@ -5,10 +5,12 @@ import Home from './pages/home';
 import About from './pages/about';
 import Project from './pages/project';
 import { GithubLogo , LinkedinLogo , EnvelopeSimple} from 'phosphor-react'
+import {HashLink as Link} from 'react-router-hash-link'
+
 
 
 function App() {
- 
+  
 
   return (
     <>
@@ -16,8 +18,8 @@ function App() {
         <div className='min-h-screen'>
           <Header/>
           <Home/>
-          <About/>
-          <Project/>
+          <About />
+          <Project />
           <Footer/>
 
         </div>
@@ -36,14 +38,15 @@ export function Header(){
       
       <li >
         <a  className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'
-        href="#">Resume</a>
+        href="https://drive.google.com/file/d/1J4TVXJyMbKKm162UeMoz6UFJdAtQauHx/view?usp=sharing" target='blank'>Resume</a>
       </li>
       <li >
-        <a  className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hidden sm:block'
-        href="#">About Me</a>
+        <Link to='/#about' smooth className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hidden sm:block'
+       >About Me</Link>
       </li>
       <li >
-      <a className='bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hover:transition ease-in-out duration-300 hidden sm:block' href="#">Projects</a>
+      <Link to='/#project' smooth className='bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hover:transition ease-in-out duration-300 hidden sm:block' 
+      >Projects</Link>
 
       </li>
       <li className=' cursor-pointer text-xl  '>
@@ -61,9 +64,9 @@ export function Footer(){
         <div className=' text-center shadow-2xl p-5 bg-slate-950 '>
           <p> &copy; 2023 Smon Ftwi</p>
           <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-400'>
-            <a href='https://github.com/SmonFtwi' target='blank'><GithubLogo size={32} /></a>
-            <a href='https://www.linkedin.com/in/smon-ftwi-59b44720a/' target='blank'> <LinkedinLogo size={32} /></a>
-            <a href="mailto:smonftwi1@gmail.com"> <EnvelopeSimple size={32} /> </a>
+            <a href='https://github.com/SmonFtwi' target='blank' className='cursor-pointer hover:scale-105 ease-in-out duration-300' ><GithubLogo size={32} /></a>
+            <a href='https://www.linkedin.com/in/smon-ftwi-59b44720a/' target='blank' className='cursor-pointer hover:scale-105 ease-in-out duration-300'> <LinkedinLogo size={32} /></a>
+            <a href="mailto:smonftwi1@gmail.com" className='cursor-pointer hover:scale-105 ease-in-out duration-300'> <EnvelopeSimple size={32} /> </a>
            </div>
         </div>
       </>

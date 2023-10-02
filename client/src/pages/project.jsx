@@ -5,7 +5,7 @@ import mCard from './../assets/memory-card.png'
 function Project(){
     return (
         <>
-         <div className=' md:m-20'>
+         <div className=' md:m-20' id="project">
          <h2 className='text-5xl py-2 text-sky-600 font-medium font-serif p-5 ml-8'>Projects</h2>
                <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
 
