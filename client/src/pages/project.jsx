@@ -1,5 +1,6 @@
 import shCart from './../assets/shopping-cart.png'
 import mCard from './../assets/memory-card.png'
+import MovieApp from './../assets/movieApp.png'
 
 
 function Project(){
@@ -43,6 +44,28 @@ function Project(){
                     <div>
                         <button className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'> View Code</button>
                         <a href='https://memory-card-puce-alpha.vercel.app/ ' target='blank'><button className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'>Live Preview</button></a>
+                    </div>
+                    </div>
+                    </div>
+                    <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg  mt-14'>
+
+                        <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                        <img src={MovieApp}></img>
+                    </div>
+                    <div className=' '>
+                    <h2 className='text-4xl text-sky-600 font-medium font-serif mb-5'>Movies App</h2>
+                    <p> <strong>Built with:  </strong>ReactJS, vite, Tailwind and vercel</p>
+                    <p  className='text-md py-5 leading-8 max-w-xl mx-auto md:text-xl flex flex-col justify-between'>
+                    This application is a movie exploration platform that uses theTMDB 
+                    API. Users can easily 
+                    search for any movies within the app and discover top-rated movies or TV shows. Additionally,
+                     they have access to trending movies or TV shows. Users can personalize their experience by 
+                     adding movies or TV shows to their favorites list with a simple click on the heart button
+                    </p>
+                   
+                    <div>
+                        <button className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'> View Code</button>
+                        <a href='https://movie-app-dusky-eight.vercel.app/ ' target='blank'><button className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'>Live Preview</button></a>
                     </div>
                     </div>
                     </div>
