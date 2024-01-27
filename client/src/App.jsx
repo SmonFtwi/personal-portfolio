@@ -1,6 +1,4 @@
 
-
-import {Moon } from 'phosphor-react'
 import Home from './pages/home';
 import About from './pages/about';
 import Project from './pages/project';
@@ -14,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className=' bg-slate-900 text-white'  >
+      <div className=' bg-slate-900 text-white relative'  >
         <div className='min-h-screen'>
           <Header/>
           <Home/>
@@ -32,26 +30,30 @@ export default App;
 
 export function Header(){
   return (
-    <nav className=' px-10 py-5  flex justify-between shadow-md bg-slate-950 '>
+    <nav className=' px-10 py-5  flex justify-between shadow-md bg-slate-900 '>
     <h1 className=' text-xl font-serif rounded-full border-double border-4 border-sky-700 p-1'> SF</h1>
     <ul className=' flex items-center'>
       
+      
       <li >
-        <a  className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'
-        href="https://drive.google.com/file/d/1J4TVXJyMbKKm162UeMoz6UFJdAtQauHx/view?usp=sharing" target='blank'>Resume</a>
-      </li>
-      <li >
-        <Link to='/#about' smooth className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hidden sm:block'
+        <Link to='/#about' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block'
        >About Me</Link>
       </li>
       <li >
-      <Link to='/#project' smooth className='bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4 hover:transition ease-in-out duration-300 hidden sm:block' 
-      >Projects</Link>
+      <Link to='/#about' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block'>
+    Skills
+</Link>
 
       </li>
-      <li className=' cursor-pointer text-xl  '>
-       <Moon size={32}  />
+      <li >
+      <Link to='/#project' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block' 
+      >Projects</Link>
       </li>
+      <li >
+        <a  className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block'
+        href="https://drive.google.com/file/d/1J4TVXJyMbKKm162UeMoz6UFJdAtQauHx/view?usp=sharing" target='blank'>Resume</a>
+      </li>
+      
     </ul>
 
   </nav>
