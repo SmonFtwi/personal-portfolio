@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import my_Img from './../assets/saye.jpg';
+import myImg from './../assets/saye.jpg';
 import { Images } from './images';
 import { CaretLeft, CaretRight } from 'phosphor-react';
 import { useState, useRef } from 'react';
@@ -51,7 +51,7 @@ function About() {
       <h1 className='text-5xl p-5 ml-8 text-white font-bold font-serif'> About Me</h1>
         <div className=' display:block md:flex justify-center align-middle bg-slate-800 rounded-t-lg rounded-r-none rounded-b-lg rounded-l-none m-5 p-8'>
          <div className="mx-auto bg-gradient-to-b rounded-xl w-80 h-80 relative overflow-hidden">
-            <img src={my_Img} alt="sorry image not available" />
+            <img src={myImg} alt="sorry image not available" />
           </div>
           <div className='text-center'>
             
