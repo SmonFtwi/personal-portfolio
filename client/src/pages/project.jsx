@@ -7,11 +7,11 @@ import ats from './../assets/ats.png'
 function Project(){
     return (
         <>
-         <div className=' m-16 ' id="project">
-         <h2 className='text-5xl p-5  text-white font-bold font-serif text-center'>Projects</h2>
+         <div className=' flex flex-col align-middle ' id="project">
+         <h2 className='text-5xl  text-white font-bold font-serif text-center'>Projects</h2>
          <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
 
-                   <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                   <div className=' mx-auto md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
                         <img src={ats}></img>
                     </div>
                 <div className=' '>
@@ -31,7 +31,7 @@ function Project(){
             </div>
                <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
 
-                   <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                   <div className=' mx-auto   md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
                         <img src={shCart}></img>
                     </div>
                 <div className=' '>
@@ -50,7 +50,7 @@ function Project(){
             </div>
                   <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg  mt-14'>
 
-                   <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                   <div className=' mx-auto   md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
                         <img src={mCard}></img>
                     </div>
                 <div className=' '>
@@ -70,7 +70,7 @@ function Project(){
                     </div>
                     <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg  mt-14'>
 
-                        <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                        <div className=' mx-auto   md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
                         <img src={MovieApp}></img>
                     </div>
                     <div className=' '>

@@ -33,7 +33,7 @@ export default App;
 export function Header(){
   return (
     <nav className=' px-10 py-5  flex justify-between shadow-md bg-slate-900 '>
-    <h1 className=' text-xl font-serif rounded-full border-double border-4 border-sky-700 p-1'> SF</h1>
+    <h1 className=' text-xl font-serif  p-1'> Smon Ftwi Kidane</h1>
     <ul className=' flex items-center'>
       
       
@@ -53,7 +53,7 @@ export function Header(){
       </li>
       <li >
       <Link to='/#contact' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block' 
-      >Contact</Link>
+      ></Link>
       </li>
       <li >
         <a  className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block'
