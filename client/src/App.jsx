@@ -2,6 +2,7 @@
 import Home from './pages/home';
 import About from './pages/about';
 import Project from './pages/project';
+import Contact from './pages/contact';
 import { GithubLogo , LinkedinLogo , EnvelopeSimple} from 'phosphor-react'
 import {HashLink as Link} from 'react-router-hash-link'
 
@@ -18,6 +19,7 @@ function App() {
           <Home/>
           <About />
           <Project />
+          <Contact />
           <Footer/>
 
         </div>
@@ -48,6 +50,10 @@ export function Header(){
       <li >
       <Link to='/#project' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block' 
       >Projects</Link>
+      </li>
+      <li >
+      <Link to='/#contact' smooth className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block' 
+      >Contact</Link>
       </li>
       <li >
         <a  className='text-white hover:bg-transparent hover:text-sky-500 px-2 py-2 rounded-lg mr-2 hidden font-serif font-bold sm:block'

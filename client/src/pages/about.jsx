@@ -48,7 +48,7 @@ function About() {
         `}
       </style>
       <div id="about">
-      <h1 className='text-5xl p-5 ml-8 text-white font-bold font-serif'> About Me</h1>
+      <h1 className='text-5xl p-5  text-white font-bold font-serif text-center'> About Me</h1>
         <div className=' display:block md:flex justify-center align-middle bg-slate-800 rounded-t-lg rounded-r-none rounded-b-lg rounded-l-none m-5 p-8'>
          <div className="mx-auto bg-gradient-to-b rounded-xl w-80 h-80 relative overflow-hidden">
             <img src={myImg} alt="sorry image not available" />
@@ -62,8 +62,8 @@ function About() {
           </div>
           
         </div>
-        <div className='m-5'>
-          <h2 className='text-4xl p-5 ml-8 text-white font-bold font-serif'>My Skills</h2>
+        <div className='m-10'>
+          <h2 className='text-4xl p-5 text-center  text-white font-bold font-serif'>My Skills</h2>
           <div className='flex justify-center items-center'>
           <div className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40}> <CaretLeft size={32} /> </div>
           <div

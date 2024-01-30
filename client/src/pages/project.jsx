@@ -7,8 +7,8 @@ import ats from './../assets/ats.png'
 function Project(){
     return (
         <>
-         <div className=' md:m-20' id="project">
-         <h2 className='text-5xl py-2 text-sky-600 font-medium font-serif p-5 ml-8'>Projects</h2>
+         <div className=' m-16 ' id="project">
+         <h2 className='text-5xl p-5  text-white font-bold font-serif text-center'>Projects</h2>
          <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
 
                    <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
