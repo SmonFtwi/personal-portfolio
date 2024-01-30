@@ -12,7 +12,7 @@ import react from './../assets/react.svg'
 import pandas from './../assets/Pandas.png'
 import numpy from './../assets/numpy.png'
 import sklearn from './../assets/Scikit_learn.png'
-import tensorflow from './../assets/Tensorflow.png'
+import tensorflow from './../assets/TensorFlow.png'
 
 export const  Images = [
     {
