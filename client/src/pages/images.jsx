@@ -17,77 +17,78 @@ import tensorflow from './../assets/Tensorflow.png'
 export const  Images = [
     {
         id: 1,
-        img:html,
-        desc: 'HTMl'
+        img:tensorflow,
+        desc: "Tensorflow"
     },
     {
         id: 2,
-        img:css,
-        desc: "CSS"
+        img:sklearn,
+        desc: "Sklearn"
     },
     {
         id: 3,
-        img:js,
-        desc: "JavaScript"
+        img:numpy,
+        desc: "Numpy"
     },
     {
         id: 4,
-        img:java,
-        desc: "Java"
+        img:pandas,
+        desc: "Pandas"
     },
     {
         id: 5,
         img:python,
         desc: "Python"
     },
+    
     {
         id: 6,
+        img:js,
+        desc: "JavaScript"
+    },
+    {
+        id: 7,
+        img:java,
+        desc: "Java"
+    },
+    {
+        id: 8,
         img:node,
         desc: "Node"
     },
     {
-        id: 7,
+        id: 9,
         img:mongodb,
         desc: "MongoDb"
     },
     {
-        id: 8,
-        img:webpack,
-        desc:"Webpack"
-    },
-    {
-        id: 9,
+        id: 10,
         img:git,
         desc: "Git"
     },
     {
-        id: 10,
+        id: 11,
         img:express,
         desc: "Express"
     },
     {
-        id: 11,
+        id: 12,
         img:react,
         desc: "React"
     },
     {
-        id: 12,
-        img:pandas,
-        desc: "Pandas"
-    },
-    {
-        id: 12,
-        img:numpy,
-        desc: "Numpy"
-    },
-    {
         id: 13,
-        img:sklearn,
-        desc: "Sklearn"
+        img:css,
+        desc: "CSS"
     },
     {
         id: 14,
-        img:tensorflow,
-        desc: "Tensorflow"
+        img:html,
+        desc: 'HTMl'
+    },
+    {
+        id: 15,
+        img:webpack,
+        desc:"Webpack"
     },
 ]

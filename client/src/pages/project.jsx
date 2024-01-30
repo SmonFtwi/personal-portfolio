@@ -1,6 +1,7 @@
 import shCart from './../assets/shopping-cart.png'
 import mCard from './../assets/memory-card.png'
 import MovieApp from './../assets/movieApp.png'
+import ats from './../assets/ats.png'
 
 
 function Project(){
@@ -8,6 +9,26 @@ function Project(){
         <>
          <div className=' md:m-20' id="project">
          <h2 className='text-5xl py-2 text-sky-600 font-medium font-serif p-5 ml-8'>Projects</h2>
+         <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
+
+                   <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>
+                        <img src={ats}></img>
+                    </div>
+                <div className=' '>
+                    <h2 className='text-4xl text-sky-600 font-medium font-serif mb-5'>Smart ATS System</h2>
+                    <p> <strong>Built with:  </strong>Streamlit, Google GenerativeAI, PyPDF2</p>
+                    <p  className='text-md py-5 leading-8 max-w-xl mx-auto md:text-xl flex flex-col justify-between'>
+                    This system analyzes resumes by extracting text from PDFs. Utilizing the Google Gemini API, it comprehensively evaluates the resume against a provided job description,
+                     offering detailed feedback about the candidate's qualifications and alignment with the job requirements.
+                    </p>
+                   
+                    <div>
+                    <a href='https://github.com/SmonFtwi/Resume-ATSS-system ' target='blank'>
+                        <button className=' bg-sky-500 hover:bg-sky-700 text-white px-4 py-2 rounded-lg mr-4'> View Code</button>
+                        </a>
+                    </div>
+                    </div>
+            </div>
                <div className='display:block md:flex justify-center align-middle m-5 p-4 rounded shadow-lg '>
 
                    <div className=' mx-auto  w-80 h-80 md:w-2/6 md:h-auto relative overflow-hidden rounded-md cursor-pointer hover:scale-105 ease-in-out duration-300'>

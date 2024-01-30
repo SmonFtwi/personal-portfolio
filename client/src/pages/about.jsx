@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import myImg from './../assets/Smon.jpg';
+import myImg from './../assets/saye.jpeg';
 import { Images } from './images';
 import { CaretLeft, CaretRight } from 'phosphor-react';
 import { useState, useRef } from 'react';
